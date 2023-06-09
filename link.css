@@ -1,0 +1,110 @@
+*{
+    margin: 0px 0px;
+    padding: 0px 0px;
+}
+body{
+    background-color: rgb(176, 178, 182);
+       
+}
+.main{
+    position:relative;
+    background-color: rgb(34, 29, 181);;
+    height:500px;
+    width:500px;
+    top:50%;
+    left:50%;
+      transform:translate(-50%,50%); 
+    border:5px solid rgb(210, 207, 204);
+    border-radius: 20px;
+}
+#longurl{
+    position:relative;
+    top:40%;
+    left:10%;
+    height: 40px;
+    width:296px;
+    border: 2px solid black;
+    border-radius: 20px;
+    padding-left: 10px;
+    padding-right: 20px;
+    font-size: large;
+    font-family: monospace;
+    font-weight: bold;
+}
+#shorturl{
+    position:relative;
+    top:50%;
+    left:10%;
+    width:296px;
+    height: 40px;
+    border: 2px solid black;
+    border-radius: 20px;
+    padding-left: 10px;
+    padding-right: 20px;
+    font-size: large;
+    font-family: monospace;
+    font-weight: bold;
+    
+}
+#copy{
+    position :relative;
+    top:51%;
+    left:0%;
+
+    height: 35px;
+    width: 35px;
+    border:2px solid black;
+    border-radius: 10px;
+    font-size: large;
+    font-weight: bold;
+    font-family: monospace;
+    color: white;
+    background-color: rgb(58, 181, 238);
+
+}
+.main p{
+    position :relative;
+    top:30%;
+    left:13%;
+
+    height: 60px;
+    width: 400px;
+  
+    font-size: 50px;
+    font-weight: bold;
+    font-family: monospace;
+    color:rgb(245, 197, 245)
+  
+
+}
+#shorten{
+    position :relative;
+    top:40%;
+    left:12%;
+
+    height: 40px;
+    width: 80px;
+   
+    border-radius: 10px;
+    border:2px solid black;
+
+    font-size: large;
+    font-weight: bold;
+    font-family: monospace;
+     color: white;
+    background-color: rgb(66, 187, 231);
+}
+#shorten:hover{
+    background-color: royalblue;
+}
+#copy:hover{
+    background-color: royalblue;
+}
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
+}
